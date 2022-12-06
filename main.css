@@ -128,10 +128,27 @@ input[type="number"] {
     margin-left: auto;
     margin-bottom: 50px;
     cursor: pointer;
+    position: relative;
+    border-radius: 5px;
 }
 
 .cart-float svg {
     fill: #fff;
+}
+
+.cart-float .count {
+    position: absolute;
+    top: -7px;
+    color: #000;
+    background-color: #fff;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    right: -7px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list {
@@ -178,6 +195,10 @@ input[type="number"] {
 
 .list .grid img {
     width: 100%;
+}
+
+.list .card {
+    cursor: pointer;
 }
 
 .list .card h4 {
